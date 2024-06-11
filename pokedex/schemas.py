@@ -1,11 +1,14 @@
 from pydantic import BaseModel
 
+
 class PokemonBase(BaseModel):
     name: str
     url: str
 
+
 class PokemonCreate(PokemonBase):
     pass
+
 
 class Pokemon(PokemonBase):
     id: int

@@ -1,8 +1,16 @@
 # Pokedex Application
 
+- Teste Técnico para a empresa Rocketman Tech
+- Aplicação Full Stack com Python, Angular e Docker
+- Autor: Robson Ferreira da Silva
+
 ## Descrição do Projeto
 
 Este projeto é uma aplicação web completa que exibe uma lista de Pokémons, permitindo a ordenação alfabética e a exportação dos dados em formato XML. O backend é implementado usando FastAPI, e o frontend é desenvolvido em Angular com renderização do lado do servidor (SSR). Além disso, o projeto está configurado para CI/CD usando GitHub Actions.
+
+## Instruções do Teste
+
+- [Instruções](https://docs.google.com/document/d/1Yl9Q_FB04DvUXNheC3dJwvOaQIh9_9Lj3iXPPiej7Lk/edit?usp=sharing)
 
 ## Tecnologias Utilizadas
 
@@ -22,6 +30,11 @@ Este projeto é uma aplicação web completa que exibe uma lista de Pokémons, p
 ### CI/CD
 
 - **GitHub Actions**: Plataforma de integração contínua e entrega contínua (CI/CD) integrada ao GitHub.
+
+### Documentação da API
+
+- Swagger
+  [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ## Funcionalidades
 
